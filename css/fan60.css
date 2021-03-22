@@ -1,11 +1,14 @@
 @import 'https://fonts.googleapis.com/css?family=Oswald';
 #menubar .menu--main {
-  background-color: #258e59;
+  background-color: #005228;
+<<<<<<< Updated upstream
 }
 
 .site-branding__slogan {
   color: darkslategray;
   font-size: 1.25em;
+=======
+>>>>>>> Stashed changes
 }
 
 /*# sourceMappingURL=fan60.css.map */
