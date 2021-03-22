@@ -12,8 +12,16 @@
   border-top: none;
 }
 
-.diptych {
+.view-organizers {
+  background-image: url("/sites/default/files/2021-03/sherrerd_1.jpg");
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.view-organizers .view-content {
   display: flex;
+  justify-content: center;
+  flex-flow: row;
 }
 
 /*# sourceMappingURL=fan60.css.map */

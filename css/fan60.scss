@@ -18,6 +18,16 @@ $adm-menu-bg-color: rgb(255, 238, 205);
 border-top: none;
 }
 
-.diptych {
-display: flex;
+.view-organizers {
+	background-image: url('/sites/default/files/2021-03/sherrerd_1.jpg');
+	min-height: 400px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+	.view-content {
+		display: flex;
+		justify-content: center;
+		flex-flow: row;
+	}
+
 }
