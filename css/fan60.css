@@ -23,13 +23,13 @@
 .view-organizers .view-content {
   display: flex;
 }
-.view-organizers .committee .views-row {
+.view-organizers .view-content .committee {
   background-color: rgba(255, 255, 255, 0.7);
   padding: 1em;
   margin: 1em;
   border-radius: 45px;
 }
-.view-organizers .committee .views-row h1 {
+.view-organizers .view-content .committee h1.field-content {
   margin: 0 0 0.5em;
   text-align: center;
 }

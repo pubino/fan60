@@ -28,18 +28,21 @@ border-top: none;
 	
 	.view-content {
 		display: flex;
+
+			.committee {
+			background-color: rgba(255, 255, 255, 0.7);
+			padding: 1em;
+			margin: 1em;
+			border-radius: 45px;
+		
+			h1.field-content {
+				margin: 0 0 0.5em;
+				text-align: center;
+			}
+		}
+
 	}
 
-	.committee .views-row {
-		background-color: rgba(255, 255, 255, 0.7);
-		padding: 1em;
-		margin: 1em;
-		border-radius: 45px;
-		
-		h1 {
-			margin: 0 0 0.5em;
-			text-align: center;
-		}
-	}
+
 
 }
