@@ -23,11 +23,23 @@ border-top: none;
 	min-height: 400px;
 	background-repeat: no-repeat;
 	background-size: 100%;
-
+	display: flex;
+	justify-content: center;
+	
 	.view-content {
 		display: flex;
-		justify-content: center;
-		flex-flow: row;
+	}
+
+	.committee .views-row {
+		background-color: rgba(255, 255, 255, 0.7);
+		padding: 1em;
+		margin: 1em;
+		border-radius: 45px;
+		
+		h1 {
+			margin: 0 0 0.5em;
+			text-align: center;
+		}
 	}
 
 }
