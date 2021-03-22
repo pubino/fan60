@@ -111,7 +111,8 @@
         {% endif %}
       </div>
     </div>
-    {% if page.featured_bottom_first or page.featured_bottom_second or page.featured_bottom_third %}
+    
+        {% if page.featured_bottom_first or page.featured_bottom_second or page.featured_bottom_third %}
       <div class="featured-bottom">
         <aside class="layout-container clearfix" role="complementary">
           {{ page.featured_bottom_first }}
@@ -120,6 +121,17 @@
         </aside>
       </div>
     {% endif %}
+
+    
+    {% if page.diptych_first or page.diptych_second %}
+      <div class="diptych">
+        <aside class="layout-container clearfix" role="complementary">
+          {{ page.diptych_first }}
+          {{ page.diptych_second }}
+        </aside>
+      </div>
+    {% endif %}
+
     {% if page.subbrand %}
     	<div id="subbrand" class="subbrand" role="complementary">
 	        {{ page.subbrand }}
