@@ -8,17 +8,30 @@
   font-size: 1.25em;
 }
 
+.layout-main {
+  margin-bottom: 0;
+}
+
+.main-content .section {
+  padding: 0;
+}
+
+#block-views-block-organizers-organizers-block .block .content {
+  margin-top: 0;
+}
+
 .subbrand {
   border-top: none;
 }
 
 .view-organizers {
   background-image: url("/sites/default/files/2021-03/sherrerd_1.jpg");
-  min-height: 400px;
+  min-height: 300px;
   background-repeat: no-repeat;
   background-size: 100%;
   display: flex;
   justify-content: center;
+  padding: 5% 0 5% 0;
 }
 .view-organizers .view-content {
   display: flex;
@@ -27,7 +40,7 @@
   background-color: rgba(255, 255, 255, 0.7);
   padding: 1em;
   margin: 1em;
-  border-radius: 45px;
+  border-radius: 15px;
 }
 .view-organizers .view-content .committee h1.field-content {
   margin: 0 0 0.5em;
