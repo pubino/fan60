@@ -12,4 +12,8 @@
   border-top: none;
 }
 
+.diptych {
+  display: flex;
+}
+
 /*# sourceMappingURL=fan60.css.map */
